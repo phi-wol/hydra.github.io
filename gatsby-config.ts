@@ -36,9 +36,6 @@ const config: GatsbyConfig = {
             },
             __key: "pages"
         },
-        "gatsby-plugin-image",
-        "gatsby-plugin-sharp",
-        "gatsby-transformer-sharp",
     ]
 };
 
