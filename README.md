@@ -2,7 +2,7 @@
 
 Project website for the paper "Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception".
 
-**Deployed at:** https://hydra.github.io/
+**Deployed at:** https://phi-wol.github.io/hydra.github.io
 
 ## 🚀 Quick start
 

@@ -1,11 +1,11 @@
-import type {GatsbyConfig} from "gatsby";
+import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
     siteMetadata: {
-        title: `Feature Fields Manipulation`,
-        siteUrl: `https://f3rm.csail.mit.edu`
+        title: `Unleashing HyDRa`,
+        siteUrl: `https://phi-wol.github.io/hydra.github.io`
     },
-    pathPrefix: "/",
+    pathPrefix: "/hydra",
     // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
     // If you use VSCode you can also use the GraphQL plugin
     // Learn more at: https://gatsby.dev/graphql-typegen
@@ -35,7 +35,11 @@ const config: GatsbyConfig = {
                 "path": "./src/pages/"
             },
             __key: "pages"
-        }]
+        },
+        "gatsby-plugin-image",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
+    ]
 };
 
 export default config;
